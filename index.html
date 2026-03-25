@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #1f242d;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: aquamarine;
+        }
+
+        .container {
+            background-color: transparent;
+            padding-top: 10px;
+            padding-left: 20px;
+            border: 2px solid aquamarine;
+            border-radius: 25px;
+        }
+
+        .container:hover {
+            background-color: rgb(38, 71, 61);
+            border: 2px solid white;
+        }
+
+        h3 {
+            color: aquamarine;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        img:hover{
+            opacity: 40%;
+        }
+    </style>
+</head>
+
+<body class="text-white">
+    <div class="container mt-4 mb-4 d-flex justify-content-between">
+        <a href="#">Portfolio</a>
+        <ol>
+            <a href="#">Home</a>
+            <a href="#" class="ms-5">About</a>
+            <a href="#" class="ms-5">Portfolio</a>
+            <a href="#" class="ms-5">services</a>
+            <a href="#" class="ms-5 me-5">Contact Us</a>
+        </ol>
+    </div>
+    <div class="container ps-5 rounded-4 mt-4 py-5">
+        <div class="row justify-content-between">
+            <div class="col-5">
+                <div class="mb-3">
+                    <h1>Hi, I am </h1>
+                    <h3>a Frontend Web-Developer</h3>
+                    <p class="text-wrap">A passionate frontend web developer who
+                        have expertise in creating responsive web
+                        application by using Html, Css, Javascript
+                        reactjs.
+                    </p>
+                </div>
+                <div class="row d-inline">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                    <a href=""><i class="bi bi-github"></i></a>
+                </div> <br>
+                <button class="mt-5 btn btn-outline-info">See Portfolio</button>
+                <button class="mt-5 ms-5 btn btn-outline-info">Contact Me</button>
+
+            </div>
+            <div class="col-5 pe-5">
+                <img class="img-thumbnail rounded-circle" src="profile.png" alt="profile.png">
+            </div>
+        </div>
+        <div class="row mt-4 justify-content-center text-info">Made with &hearts; by Arbaz mudassar</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
