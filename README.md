@@ -18,7 +18,7 @@ Your portfolio website acts as your **online identity**. It highlights your skil
 ---
 
 ## 🔗 Live Demo
-https://arbazmudassar.github.io/portfolio/
+https://arbazmudassar.github.io/Portfolio/
 
 ---
 
