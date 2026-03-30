@@ -29,6 +29,16 @@ This is a modern, fully responsive personal portfolio website developed to showc
 
 ## 📸 Preview
 
+<img width="1738" height="786" alt="Screenshot 2026-03-30 121042" src="https://github.com/user-attachments/assets/bf6bbc17-c8a2-4315-a29d-dca328a1dc5e" />
+<img width="1716" height="877" alt="Screenshot 2026-03-30 121028" src="https://github.com/user-attachments/assets/173d9471-242b-49a1-b829-681fafd3665c" />
+<img width="1765" height="869" alt="Screenshot 2026-03-30 121104" src="https://github.com/user-attachments/assets/7c2ee0f4-2b34-407a-9e71-d266d223eb7a" />
+<img width="1691" height="735" alt="Screenshot 2026-03-30 121053" src="https://github.com/user-attachments/assets/4a9803e9-b738-4152-8549-b850cb12de07" />
+<img width="1804" height="892" alt="Screenshot 2026-03-30 120928" src="https://github.com/user-attachments/assets/d80a4b12-d475-4ade-ab2b-38bb7fd760f5" />
+<img width="1732" height="862" alt="Screenshot 2026-03-30 120945" src="https://github.com/user-attachments/assets/42d17db2-2d2f-4c29-914a-838f54a6c78e" />
+
+
+
+
 
 
 ---
