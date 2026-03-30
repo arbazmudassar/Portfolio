@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbaz Mudassar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="content">
+        <header>
+            <div class="container-fluid position-fixed z-2">
+                <nav class="navbar navbar-expand-md">
+                    <div class="container p-2 rounded-5 px-4 shadow-lg">
+                        <a class="navbar-b fw-bold" href="#">Arbaz Mudassar</a>
+                        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navMenu">
+                            <a href="#"><i class="fa-solid fa-bars"></i>
+                            </a>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navMenu">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="me-5 active fw-bold" href="#">Home</a></li>
+                                <li class="nav-item"><a class="me-5 fw-bold" href="#about">About</a></li>
+                                <li class="nav-item"><a class="me-5 fw-bold" href="#skills">Skills</a></li>
+                                <li class="nav-item"><a class="me-5 fw-bold" href="#projects">Projects</a></li>
+                                <li class="nav-item"><a class="me-5 fw-bold" href="#experiences">Experience</a></li>
+                                <li class="nav-item"><a class="fw-bold me-2" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="p-5">
+            <section id="hero">
+                <div class="container mt-5 mb-5 p-3 text-center">
+                    <h4 class="mt-3 fw-bold">Hi, I'm</h4>
+                    <h1>Arbaz Mudassar</h1>
+                    <h4 class="my-3">Frontend Developer | Building Responsive and User-Friendly Web Applications</h4>
+                    <div class="row justify-content-center">
+                        <p class="my-3 text-wrap">I specialize in creating modern, responsive, and
+                            interactive websites using HTML, CSS, JavaScript, and Bootstrap.</p>
+                    </div>
+                    <div class="mt-2">
+                        <a href="https://github.com/arbazmudassar"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/arbaz-mudassar"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:arbazmudassar7@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div> <br>
+                    <a href="#projects" class="my-2">View My Work</a>
+                    <a href="#contact" class="my-2"><i class="fa-solid fa-envelope"> </i> Contact Me</a>
+                </div>
+            </section>
+            <section id="about">
+                <div class="container p-3 ">
+                    <h3 class="text-center fw-bold p-5">About Me</h3>
+                    <div class="row justify-content-between">
+                        <div class="col-md-4 p-3 ms-4">
+                            <img class="img-fluid rounded-circle" src="about.png" alt="image.png">
+                        </div>
+                        <div class="col-md-6 p-5 rounded-5 me-2">
+                            <p class text-wrap>I am a passionate Frontend Developer focused on building real-world web
+                                applications and improving my development skills.
+                                <br> <br>I enjoy turning ideas into responsive and visually appealing websites that
+                                provide a smooth user experience across all devices.
+                                <br> <br>Currently, I am also expanding my skills in backend development (Flask and
+                                Django) and databases to become a full-stack developer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="container p-3 ">
+                    <h3 class="text-center fw-bold pt-5 pb-3">My Skills</h3>
+                    <div class="row justify-content-between">
+                        <div class="col-md">
+                            <h4>Frontend Development</h4>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>HTML</span><span class="percent"
+                                        data-value="90">90%</span></div>
+                                <div class="bar">
+                                    <div class="fill html" data-value="90">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>CSS/BootStrap</span><span class="percent" data-value="85">85%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill css" data-value="85">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>JavaScript</span><span class="percent" data-value="70">70%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill js" data-value="70">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <h4>Backend & Databases</h4>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Flask</span><span class="percent" data-value="75">75%</span></div>
+                                <div class="bar">
+                                    <div class="fill flask" data-value="75">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>SQL</span><span class="percent" data-value="65">65%</span></div>
+                                <div class="bar">
+                                    <div class="fill sql" data-value="65">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-md">
+                            <h4>Tools & additional Skills</h4>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Git/GitHub</span><span class="percent" data-value="75">75%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill git" data-value="75">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>API Integration</span><span class="percent" data-value="60">60%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill api" data-value="60">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>UI/UX Basics</span><span class="percent" data-value="55">55%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill ui" data-value="55">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Clean Code
+                                        Practices</span><span class="percent" data-value="85">85%</span></div>
+                                <div class="bar">
+                                    <div class="fill code" data-value="85">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <h4>Professional Skills</h4>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Problem Solving</span><span class="percent" data-value="85">85%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill problem" data-value="85">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Attention to
+                                        Detail</span><span class="percent" data-value="65">65%</span></div>
+                                <div class="bar">
+                                    <div class="fill detail" data-value="65">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Communication</span>
+                                    <span class="percent" data-value="75">0%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill" data-value="75"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex justify-content-between"><span>Time Management</span><span class="percent" data-value="80">80%</span>
+                                </div>
+                                <div class="bar">
+                                    <div class="fill" data-value="80">
+                                        <div class="fill-animate"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="container py-3">
+                    <h3 class="text-center fw-bold pt-5">Projects</h3>
+                    <div class="row py-3 justify-content-between">
+                        <div class="col-md shadow-lg">
+                            <div class="box">
+                                <a href=""><i class="fa-solid fa-shop"></i></a>
+                            </div>
+                            <h5>E-Commerce Website</h5>
+                            <p class="pt-2">A modern, fully responsive multi-page e-commerce website built with HTML,
+                                CSS, Bootstrap, and JavaScript featuring animations, form validation, and interactive UI
+                                components.</p>
+                            <div class="badges gap-2">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                            </div>
+                            <span>
+                                <a href="https://github.com/arbazmudassar/Zafira-Responsive-E-Commerce-Website"
+                                    class="my-2">View Code</a>
+                                <a href="https://arbazmudassar.github.io/Zafira-Responsive-E-Commerce-Website/"
+                                    class="my-2">Live Demo</a>
+                            </span>
+                        </div>
+                        <div class="col-md shadow-lg mx-2">
+                            <div class="box">
+                                <a href=""><i class="fa-solid fa-money-bill"></i> <i class="fa-solid fa-rotate"></i></a>
+                            </div>
+                            <h5>Currency Converter</h5>
+                            <p class="pt-2">A responsive web-based currency converter application built using HTML, CSS,
+                                JavaScript, and real-time API integration. Allows users to convert currencies quickly
+                                and accurately.</p>
+                            <div class="badges gap-2">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                            </div>
+                            <span>
+                                <a href="https://github.com/arbazmudassar/currency-converter-app" class="my-2">View
+                                    Code</a>
+                                <a href="https://arbazmudassar.github.io/currency-converter-app/" class="my-2">Live
+                                    Demo</a>
+                            </span>
+                        </div>
+                        <div class="col-md shadow-lg">
+                            <div class="box">
+                                <a href=""><i class="fa-solid fa-laptop-code"></i></a>
+                            </div>
+                            <h5>More Projects</h5>
+                            <p class="pt-2">Explore a collection of projects showcasing modern design, clean code, and
+                                practical problem-solving skills.</p>
+                            <div class="badges gap-2">
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">Python</span>
+                                <span class="badge">DataBases</span>
+                            </div>
+                            <span>
+                                <a href="https://github.com/arbazmudassar" class="my-2">See More</a>
+                                <a href="https://github.com/arbazmudassar" class="my-2"><i class="fa-brands fa-github">
+                                    </i> Github</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="experiences">
+                <div class="container p-3 ">
+                    <h3 class="text-center fw-bold p-5">Experience/ Goal</h3>
+                    <div class="row p-5 text-wrap justify-content-between">
+                        <div class="col-md-5">
+                            <h4>Experience</h4>
+                            <p>Frontend Developer (Self Projects) <br>
+                                2025 – Present <br><br>
+
+                                Developed responsive web applications using HTML, CSS, Bootstrap, and JavaScript. Built
+                                projects including e-commerce websites, dashboards, and API-based applications with a
+                                focus on clean UI and user experience.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <h4>Goal</h4>
+                            <p>I am currently focused on improving my frontend development skills and building
+                                real-world projects to start freelancing and remote work opportunities.
+                                <br><br>My goal is to become a professional Full Stack Developer and work with clients
+                                globally by delivering high-quality web solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container p-3 ">
+                    <h3 class="text-center fw-bold pt-5 pb-3">Contact</h3>
+                    <h6 class="text-center fw-bold">Let’s Work Together</h6>
+                    <p class="text-center text-light">I am available for freelance projects and collaboration
+                        opportunities.</p>
+                    <div class="row justify-content-between">
+                        <div class="col-md-5">
+                            <div class="row p-3 rounded-4">
+                                <h4 class="text-secondary">
+                                    <span><i class="fa-brands fa-github"> </i></span> Github:
+                                    <a href="https://github.com/arbazmudassar">Visit Now</a>
+                                </h4>
+                            </div>
+                            <div class="row p-3 rounded-4 my-4">
+                                <h4 class="text-secondary">
+                                    <span><i class="fa-brands fa-linkedin"> </i></span> LinkedIn:
+                                    <a href="https://www.linkedin.com/in/arbaz-mudassar">Visit Now</a>
+                                </h4>
+                            </div>
+                            <div class="row p-3 rounded-4">
+                                <h4 class="text-secondary">
+                                    <span><i class="fa-solid fa-envelope"> </i></span> Gmail:
+                                    <a href="mailto:arbazmudassar7@gmail.com">Visit Now</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="Name" class="form-control p-3 rounded-4" required>
+                            <input type="email" placeholder="Email" class="form-control my-3 p-3 rounded-4" required>
+                            <textarea name="msg" id="msg" Placeholder="Message" class="form-control"
+                                required></textarea>
+                            <input type="submit" class="btn mt-3" value="Send Message">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container-fluid p-3">
+            <div class="container text-center text-light">
+                <h3 class="mb-3">Arbaz Mudassar</h3>
+                <div>
+                    <a href="https://github.com/arbazmudassar"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arbaz-mudassar"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:arbazmudassar7@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p class="text-secondary mt-3">Made with <i class="fa-solid fa-heart fa-beat text-danger"></i> by Arbaz
+                    Mudassar
+                    <br> &copy; all rights reserved, 2026
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
